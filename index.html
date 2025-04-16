@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width-device-width, intial-scale=1.0" />
+    <title>Nicee Burger</title>
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+
+  <body>
+    <div id="stars"></div>
+   
+    <header>
+      <div class="navbar">
+        <h2>
+          <i>Nicee</i>Burger
+        </h2>
+        <button class="navbar-toggle" id="navbar-toggle">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+      </button>
+        <div class="center-nav">
+          <a href="#home">Home</a>
+          <a href="#about">About</a>
+          <a href="#menu">Menu</a>
+          <a href="#shop">Shop</a>
+        </div>
+        
+      </div>
+    </header>
+      <section id="home">
+        <div class="text">
+          <h1>
+            THE ULTIMATE <br /><i class="tag">BURGER HAUM</i
+            >
+          </h1>
+          <p>
+            Juicy, stacked, and grilled to perfection — our burgers are a love
+            letter to flavor. From flame-grilled classics to bold, gourmet
+            creations, every bite is loaded with premium ingredients, melty
+            cheese, and crave-worthy sauces. This isn’t just a burger...
+            <i class="tag">it’s an experience.</i
+            >
+          </p>
+          <a href="" class="btn">Order Now</a>
+        </div>
+
+
+        <div class="burger-toggle">
+          <img src="assets/img/burger2.png" alt="Burger image" />
+        </div>
+
+        <div class="burger">
+          <img src="assets/img/burger1.png" alt="Burger image" />
+          <img src="assets/img/burger2.png" alt="Burger image" />
+          <img src="assets/img/burger3.png" alt="Burger image" />
+          <img src="assets/img/burger4.png" alt="Burger image" />
+          <img src="assets/img/burger5.png" alt="Burger image" />
+          <img src="assets/img/burger6.png" alt="Burger image" />
+          <img src="assets/img/burger7.png" alt="Burger image" />
+        </div>
+
+        
+      </section>
+   
+
+    <section id="about">
+      <div id="about-hero">
+        <h1>About Burger Haum</h1>
+        <p>Where buns meet brilliance.</p>
+      </div>
+
+      <div id="our-story">
+        <div class="story-container">
+          <div class="title">
+            <h2>Our Story</h2>
+          </div>
+          <div class="story-content">
+            <p>
+              It all started with two best friends, a backyard grill, and an
+              obsession with the perfect burger. Back in 2021, on a lazy Sunday
+              afternoon, we grilled up what we thought was just a regular lunch.
+              But that bite — juicy, smoky, dripping with flavor — changed
+              everything. We looked at each other and said, "What if we shared
+              this with the world?" From that moment on, we were hooked. We
+              spent months experimenting with patties, sauces, buns, and even
+              the tiniest pickle slices — until we perfected what would become
+              the Burger Haum signature style: bold, handcrafted burgers made
+              with love, layered with fresh, locally-sourced ingredients, and
+              served with a side of good vibes. What started as a tiny food
+              truck has now grown into a community-loved burger joint. But no
+              matter how big we get, our mission stays the same: Make every bite
+              unforgettable. Because to us, a burger isn’t just food — it’s a
+              feeling. A moment of joy. A reminder that life’s too short for
+              boring meals.
+            </p>
+          </div>
+        </div>
+      </div>
+      <br><br>
+      <div id="mission-values">
+        <div class="mission-container">
+          <div class="title">
+            <h2>Our Mission</h2>
+          </div>
+          <div class="mission-content">
+            <ul>
+              <li>Serve the freshest burgers</li>
+              <li>Support local farms</li>
+              <li>Make people smile</li>
+            </ul>
+          </div>
+        </div>
+        <h3>
+          Welcome to Burger Haum. You bring the hunger, we’ll bring the magic.
+        </h3>
+        </div>
+    </div>
+  </section>
+
+  <section id="menu">
+    <div class="menu-heading">
+      <h2>🔥 Our Signature Burgers</h2>
+      <p>Stacked high. Grilled right. Loved always.</p>
+    </div>
+    <div class="menu-items">
+      <div class="menu-card">
+        <img src="assets/img/menu1.jpeg" alt="Classic Cheeseburger" />
+        <h3>Classic Cheeseburger</h3>
+        <p>A timeless favorite with cheddar, pickles & our secret sauce.</p>
+        <span>$8.99</span>
+      </div>
+      <div class="menu-card">
+        <img src="assets/img/menu2.jpeg" alt="Spicy Inferno" />
+        <h3>Spicy Inferno</h3>
+        <p>For the bold: jalapeños, chipotle aioli, and pepper jack cheese.</p>
+        <span>$10.99</span>
+      </div>
+      <div class="menu-card">
+        <img src="assets/img/menu3.jpeg" alt="Veggie Bliss" />
+        <h3>Veggie Bliss</h3>
+        <p>Grilled plant patty, fresh greens, avocado, and tahini sauce.</p>
+        <span>$9.49</span>
+      </div>
+      <!-- Add more cards as needed -->
+    </div>
+    <div class="menu-container">
+      <div class="tabs">
+        <button class="tab-button active" data-category="burgers">Burgers</button>
+        <button class="tab-button" data-category="fries">Snacks</button>
+        <button class="tab-button" data-category="beverages">Beverages</button>
+      </div>
+    
+      <div class="menu-items" id="menu-items">
+        <!-- Dynamic content will be injected here -->
+      </div>
+    </div>
+  </section>
+
+  <section id="shop">
+    <div class="address-container">
+      <h2>Visit Us at Our Shops</h2>
+
+      <!-- Address 1 -->
+      <div class="address">
+        <h3>FoodTown Shop</h3>
+        <p>1234 Burger Lane, Foodtown, FT 5678</p>
+        <p>Open Daily: 9:00 AM - 9:00 PM</p>
+        <p>For inquiries: <a href="mailto:contact@niceburgerft.com">contact@niceburgerft.com</a></p>
+      </div>
+      <br><br><br>
+    <!-- Address 2 -->
+      <div class="address">
+        <h3>CityTown Shop</h3>
+        <p>5678 Pizza Street, Citytown, CT 1234</p>
+        <p>Open Daily: 10:00 AM - 8:00 PM</p>
+        <p>For inquiries: <a href="mailto:contact@niceburgerct.com">contact@niceburgerct.com</a></p>
+      </div>
+    </div>
+  </section>
+
+  <footer id="footer">
+    <div class="footer-container">
+      <div class="footer-contact">
+        <p>&copy; 2025 NiceeBurger. All rights reserved.</p>
+        <p>Follow us: 
+          <a href="https://facebook.com" target="_blank">Facebook</a> | 
+          <a href="https://instagram.com" target="_blank">Instagram</a>
+        </p>
+      </div>
+    </div>
+  </footer>
+  
+
+    <script src="assets/js/scrollreveal.min.js"></script>
+    <script src="assets/js/burger.js"></script>
+    
+
+  </body>
+</html>
