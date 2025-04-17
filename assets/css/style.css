@@ -22,7 +22,6 @@ section {
   scroll-margin-top: 80px; /* NEW: For anchor links */
 }
 
-
 header {
   position: sticky;
   top: 0;
@@ -48,8 +47,8 @@ header {
   left: 0;
   width: 100%;
   height: 100%;
-  pointer-events: none; 
-  z-index: -1; 
+  pointer-events: none;
+  z-index: -1;
 }
 
 @keyframes twinkle {
@@ -74,7 +73,7 @@ header {
   /* animation: slideInFromTop 1s ease-in-out; */
 }
 
-.navbar i{
+.navbar i {
   color: orangered;
   font-size: xx-large;
 }
@@ -132,7 +131,6 @@ header {
   border-bottom: 2px solid orange;
 }
 
-
 .text {
   position: relative;
   top: 10rem;
@@ -144,12 +142,12 @@ header {
 .text h1 {
   font-weight: bold;
   font-size: 4rem;
-  font-family: "Poppins", sans-serif;;
+  font-family: "Poppins", sans-serif;
   margin-bottom: 10px;
   animation: fadeInUp 1s ease-in-out;
 }
 
-.tag{
+.tag {
   color: orangered;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
@@ -443,7 +441,7 @@ header {
 
 .menu-container {
   padding: 2rem;
-  font-family: "Poppins", sans-serif;;
+  font-family: "Poppins", sans-serif;
   text-align: center;
 }
 
@@ -469,8 +467,6 @@ header {
   background-color: #ff9800;
   color: white;
 }
-
-
 
 .menu-card img {
   width: 100%;
@@ -577,18 +573,20 @@ header {
   .center-nav.show {
     display: flex;
   }
-
+  .navbar h2 {
+    font-size: 2.5rem;
+  }
   .text {
     width: 90%;
   }
 
   .text h1 {
-    font-size: 3rem;
+    font-size: 4rem;
     text-align: left;
   }
 
   .text p {
-    font-size: 2rem;
+    font-size: 2.5rem;
   }
 
   .btn {
@@ -609,12 +607,11 @@ header {
 
   .burger-toggle img {
     height: auto;
-    top: 25vh;
+    top: 40vh;
     right: 30px;
     filter: drop-shadow(63px 90px 392px);
     animation: fadeInUp 1s ease-in-out 2.5s backwards;
   }
-
 
   .navbar-toggle {
     display: flex;
@@ -666,7 +663,7 @@ header {
   .center-nav a {
     padding: 10px 0;
   }
-  
+
   .text h1 {
     font-size: 2.2rem;
   }
