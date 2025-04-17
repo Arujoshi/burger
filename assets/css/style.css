@@ -601,13 +601,13 @@ header {
   }
 
   .burger img {
-    width: 70px;
-    height: 70px;
+    width: 85px;
+    height: 85px;
   }
 
   .burger-toggle img {
     height: auto;
-    top: 40vh;
+    top: 35vh;
     right: 30px;
     filter: drop-shadow(63px 90px 392px);
     animation: fadeInUp 1s ease-in-out 2.5s backwards;
